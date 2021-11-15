@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+i{
+    color: white;
+}
+
+header h1 i{
+    color: rgba(0, 0, 0);
+}
+
+#nav_bar{
+    list-style: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: groove;
+    border-color: black;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 14px 16px;
+    color: black;
+    border-right: groove;
+    border-left: groove;
+    font-size: 20px;
+}
+
+li a:hover{
+    background: rgb(0, 0, 240);
+}
+
+iframe{
+
+    margin: 0 auto;
+    display: block;
+}
+
+#content{
+    margin: 30px;
+    font-size: 20px;
+}
+
+button:hover{
+    background: rgba(0, 0, 240, 0.466);
+}
+
+#comment{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.reply{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+}
+
+textarea{
+    position: static;
+    width: 50%;
+}
+
+article{
+    border-style: dotted;
+    border-color: rgba(0, 0, 0);
+    display: block;
+}
+
+
+
